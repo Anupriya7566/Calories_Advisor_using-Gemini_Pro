@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 load_dotenv() ## load all the environment variables
 
 import streamlit as st
+import streamlit_authenticator as stauth
 import os
 import google.generativeai as genai
 from PIL import Image
